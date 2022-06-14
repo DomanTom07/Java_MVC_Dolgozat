@@ -34,8 +34,8 @@ public class MainFrame extends JFrame {
     public JList<String> positionList;
     JScrollPane scrollPane;
 
-    JButton exitButton;
-    JButton emptyButton;
+    public JButton exitButton;
+    public JButton emptyButton;
     JPanel buttonPanel;
 
     public MainFrame() {
@@ -51,7 +51,7 @@ public class MainFrame extends JFrame {
         positionList = new JList<>(defaultListModel);
         scrollPane = new JScrollPane(positionList);
 
-        exitButton = new JButton("Kilépés");
+        exitButton = new JButton("Kilpéés");
         emptyButton = new JButton("Ürítés");
     }
     private void setButtonPanel() {
@@ -76,5 +76,6 @@ public class MainFrame extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(300, 400);
         this.setVisible(true);
+        this.setTitle("Tamás Domán");
     }
 }

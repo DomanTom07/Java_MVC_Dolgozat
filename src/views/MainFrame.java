@@ -8,18 +8,18 @@ import javax.swing.JPanel;
 public class MainFrame extends JFrame {
     JPanel mainPanel;
     public MainFrame() {
-        this.setMainComponent();
-        this.setMainPanel();
-        this.setMainFrame();
+        setMainComponent();
+        setMainPanel();
+        setMainFrame();
     }
     private void setMainComponent() {
         
     }
     private void setMainPanel() {
-        this.mainPanel = new JPanel();
+        mainPanel = new JPanel();
     }
     private void setMainFrame() {
-        this.add(this.mainPanel);
+        this.add(mainPanel);
         this.setLayout(new FlowLayout());
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(300, 400);

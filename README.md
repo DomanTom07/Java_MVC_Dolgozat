@@ -1,3 +1,3 @@
-# Template program
+# Java MVC Dolgozat
 
-Template leírás
+Tamás Domán, 2022-06-14, Szoft I N

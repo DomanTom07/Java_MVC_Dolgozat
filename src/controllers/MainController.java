@@ -7,8 +7,8 @@ public class MainController {
     MainFrame mainFrame;
     MainModel mainModel;
     public MainController() {
-        this.mainFrame = new MainFrame();
-        this.mainModel = new MainModel();
+        mainFrame = new MainFrame();
+        mainModel = new MainModel();
     }
     
 }

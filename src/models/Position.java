@@ -1,5 +1,5 @@
 /*
-File: MainModel.java
+File: Position.java
 Author: Tamás Domán
 Copyright: 2022, Tamás Domán
 Group: Szoft I N
@@ -10,6 +10,6 @@ Licenc: GNU GPL
 
 package models;
 
-public class MainModel {
+public class Position {
     
 }
